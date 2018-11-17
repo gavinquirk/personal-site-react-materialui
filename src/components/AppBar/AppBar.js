@@ -34,6 +34,7 @@ function ButtonAppBar(props) {
           <Typography variant="h6" color="inherit" className={classes.grow}>
             GavinQuirk.com
           </Typography>
+          <Button href="/" color="inherit">Home</Button>
           <Button href="/portfolio" color="inherit">Portfolio</Button>
           <Button href="/contact" color="inherit">Contact</Button>
           <Button href="https://github.com/gavinquirk" color="inherit" target="_blank">Github</Button>
