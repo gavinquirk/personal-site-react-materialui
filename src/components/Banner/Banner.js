@@ -7,12 +7,7 @@ import Grid from '@material-ui/core/Grid';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
+  }
 });
 
 function CenteredGrid(props) {
@@ -20,9 +15,8 @@ function CenteredGrid(props) {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={24}>
+      <Grid container spacing={0}>
         <Grid item xs={12}>
-          <Paper className={classes.paper}>xs=12</Paper>
           <img className="bannerImage" src="/images/computer_use_leaderboard.jpg" />
         </Grid>
       </Grid>
